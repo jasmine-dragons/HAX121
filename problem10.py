@@ -23,9 +23,10 @@ def removeExtraLetters(word):
         offset = offset+1
     print(word)
 
-
-# Main program:
 def main():
     word = input("Enter Word: ").split()
     word = str(word)
     return(removeExtraLetters(word))
+
+# Main program:
+main()
