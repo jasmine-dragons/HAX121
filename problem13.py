@@ -13,20 +13,20 @@ import string
 
 # Class and function definitions:
 
-class Person: 
+class Person:
     def __init__(self, height, weight):
         self._height = height
         self._weight = weight
 
     def getHeight(self):
         return self._height
-    
+
     def getWeight(self):
         return self._weight
 
     def setHeight(self, newHeight):
         self._height = newHeight
-    
+
     def setWeight(self, newWeight):
         self._weight = newWeight
 
@@ -38,7 +38,9 @@ def main():
         nums = list(map(int, nums))
         if (nums[0] > len(people)):
             people.append(Person(nums[1], nums[2]))
-        else: 
+        else:
             people[nums[0]-1] = Person(nums[1], nums[2])
     for x in people:
         print(x.getHeight(), x.getWeight())
+
+main()
