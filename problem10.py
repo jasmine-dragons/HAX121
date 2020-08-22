@@ -13,9 +13,19 @@ import string
 
 # Class and function definitions:
 def removeExtraLetters(word):
-    
+    repeatedIndexes = []
+    for i in range(len(word)-3):
+        if word[i] == word[i+1]:
+            repeatedIndexes.append(i)
+    offset = 0
+    for i in repeatedIndexes:
+        word = word[0 : i-offset : ] + word[i+1-offset : :]
+        offset = offset+1
+    print(word)
+
 
 # Main program:
 def main():
     word = input("Enter Word: ").split()
-    word = string(word)
+    word = str(word)
+    return(removeExtraLetters(word))
