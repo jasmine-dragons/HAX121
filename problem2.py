@@ -14,7 +14,8 @@ import string
 # Class and function definitions:
 
 # Main program:
-def cipher(input_string):
+def cipher():
+    input_string = str(input('string: '))
     output_string = ''
     if input_string.islower() == False or ' ' in input_string:
         print('invalid string')
