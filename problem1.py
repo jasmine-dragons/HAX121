@@ -17,7 +17,7 @@ def alphabet () :
     num = int(num)
     letters = string.ascii_lowercase
     letter_list = list(letters)
-    out = " "
+    out = ""
 
     for x in range(0, num):
         out += letter_list[x]
