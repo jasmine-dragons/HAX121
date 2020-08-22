@@ -29,5 +29,5 @@ def range():
     print(max - min)
 
 
-
 # Main program:
+range()
