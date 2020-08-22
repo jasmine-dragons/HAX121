@@ -16,7 +16,7 @@ def getArea(nums):
     nums = list(nums)
     return .5 * nums[0] * nums[1]
 
-def checkForTriple(nums):
+def checkForTriple(nums):  #Run this program
     nums = list(nums)
     a = nums[0]
     b = nums[1]
