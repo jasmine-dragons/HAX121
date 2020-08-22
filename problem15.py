@@ -17,7 +17,7 @@ def goodNum():
     num = str(num)
     length = len(num)
 
-    output = " "
+    output = ""
     length1 = length
     for i in range(length):
         if num[i] != '0':

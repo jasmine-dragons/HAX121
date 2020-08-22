@@ -13,12 +13,12 @@ import string
 
 # Class and function definitions:
 
-def isPrime(num): 
+def isPrime(num):
     if num <= 1:
         return False
     for divide in range(2, num):
         if (num % divide) == 0:
-            return False 
+            return False
     return True
 
 def binaryPrime(nums):
@@ -28,9 +28,9 @@ def binaryPrime(nums):
         if (isPrime(nums[x])):
             largestPrime = nums[x]
             break
-    
-    left = 0 
-    right = len(nums) -1 
+
+    left = 0
+    right = len(nums) -1
     count = 0
     while (left <= right) :
         count += 1
@@ -49,7 +49,7 @@ def binaryPrime(nums):
 
 def main():
     nums = []
-    tempNums = input().split()
+    tempNums = input('input: ').split()
     tempNums = map(int, tempNums)
     print(binaryPrime(tempNums))
 
