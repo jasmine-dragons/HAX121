@@ -2,8 +2,8 @@
 # Please fill out the info fields below for identification
 # Do not modify any part of the template
 
-# Team Name: LeadTech
-# Team Number: P074
+# Team Name:LeadTech
+# Team Number:P074
 # Problem Number: 10
 
 import array
@@ -21,10 +21,10 @@ def removeExtraLetters(word):
     for i in repeatedIndexes:
         word = word[0 : i-offset : ] + word[i+1-offset : :]
         offset = offset+1
-    print(str(word))
+    print(word)
 
 def main():
-    word = input("Enter Word: ")
+    word = input("Enter Word: ").split()
     word = str(word)
     return(removeExtraLetters(word))
 
