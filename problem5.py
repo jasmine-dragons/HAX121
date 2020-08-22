@@ -12,8 +12,6 @@ import re
 import string
 
 # Class and function definitions:
-
-# Main program:
 def vowels():
     input_string = input('string: ')
     output_string = ''
@@ -25,3 +23,6 @@ def vowels():
             letter = chr(ord('&'))
         output_string += letter
     print(output_string)
+
+# Main program:
+vowels()

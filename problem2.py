@@ -12,8 +12,6 @@ import re
 import string
 
 # Class and function definitions:
-
-# Main program:
 def cipher():
     input_string = str(input('string: '))
     output_string = ''
@@ -25,3 +23,6 @@ def cipher():
         letter = chr(ord(character) + 3)
         output_string += letter
     print(output_string)
+
+# Main program:
+cipher()
