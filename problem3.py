@@ -18,10 +18,11 @@ def relprime():
     num1 = int(num1)
     num2 = input("num2: ")
     num2 = int(num2)
-    if int(math.gcd(num1, num2)) == 1:
+    result = math.gcd(num1,num2)
+    if result == 1:
         print(0)
     else:
-        print(math.gcd(num1, num2))
+        print(result)
 
 # Main program:
-reprime()
+relprime()
