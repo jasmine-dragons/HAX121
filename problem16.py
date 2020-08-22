@@ -16,21 +16,21 @@ import string
 # Main program:
 
 def main():
-    tempNum = int(input())
+    tempNum = int(input("input the integer: "))
     print(largestPrime(tempNum))
 
 def largestPrime(num):
     for x in range(num-1, 2, -1):
         if (isPrime(x)):
-            return x 
+            return x
     return 2
 
-def isPrime(num): 
+def isPrime(num):
     if num <= 1:
         return False
     for divide in range(2, num):
         if (num % divide) == 0:
-            return False 
+            return False
     return True
 
 main()
