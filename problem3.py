@@ -24,3 +24,4 @@ def relprime():
         print(math.gcd(num1, num2))
 
 # Main program:
+reprime()

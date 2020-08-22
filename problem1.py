@@ -26,3 +26,4 @@ def alphabet () :
 
 
 # Main program:
+alphabet()
