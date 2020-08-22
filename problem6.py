@@ -31,3 +31,5 @@ def main():
     nums = list(map(int, nums))
     nums = sorted(nums)
     return(checkForTriple(nums))
+
+main()

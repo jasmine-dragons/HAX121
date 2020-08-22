@@ -14,10 +14,10 @@ import string
 # Class and function definitions:
 
 def relprime():
-    num1 = input("num1: ")
-    num1 = int(num1)
-    num2 = input("num2: ")
-    num2 = int(num2)
+    inp = input("input: ").split(" ")
+    num1 = int(inp[0])
+    num2 = int(inp[1])
+
     result = math.gcd(num1,num2)
     if result == 1:
         print(0)
