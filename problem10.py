@@ -21,10 +21,10 @@ def removeExtraLetters(word):
     for i in repeatedIndexes:
         word = word[0 : i-offset : ] + word[i+1-offset : :]
         offset = offset+1
-    print(word)
+    print(str(word))
 
 def main():
-    word = input("Enter Word: ").split()
+    word = input("Enter Word: ")
     word = str(word)
     return(removeExtraLetters(word))
 
