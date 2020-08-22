@@ -12,8 +12,6 @@ import re
 import string
 
 # Class and function definitions:
-
-# Main program:
 def bank():
     balance = 100
     for i in range(5):
@@ -24,5 +22,7 @@ def bank():
             balance += amount
         elif list[0] == 'withdraw':
             balance -= amount
-
     print(balance)
+
+# Main program:
+bank()
