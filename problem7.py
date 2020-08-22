@@ -3,8 +3,8 @@
 # Do not modify any part of the template
 
 # Team Name: LeadTech
-# Team Number: 
-# Problem Number: 7 
+# Team Number: P074
+# Problem Number: 7
 
 import array
 import math
