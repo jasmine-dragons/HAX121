@@ -14,7 +14,7 @@ import string
 # Class and function definitions:
 def removeExtraLetters(word):
     repeatedIndexes = []
-    for i in range(len(word)-3):
+    for i in range(len(word)-1):
         if word[i] == word[i+1]:
             repeatedIndexes.append(i)
     offset = 0
@@ -25,8 +25,7 @@ def removeExtraLetters(word):
 
 def main():
     word = input("Enter Word: ").split()
-    word = str(word)
-    return(removeExtraLetters(word))
+    removeExtraLetters(word[0])
 
 # Main program:
 main()
