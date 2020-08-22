@@ -29,4 +29,5 @@ def checkForTriple(nums):  #Run this program
 def main():
     nums = input("each triple, in ascending order, seperated by spaces: ").split()
     nums = list(map(int, nums))
+    nums = sorted(nums)
     return(checkForTriple(nums))
