@@ -23,7 +23,7 @@ def checkForTriple(nums):  #Run this program
     if not a*a + b*b == c*c:
         print(0)
     else:
-        print(getArea(nums))
+        print(int(getArea(nums)))
 
 # Main program:
 def main():
