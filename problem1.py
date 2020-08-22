@@ -12,7 +12,9 @@ import re
 import string
 
 # Class and function definitions:
-def alphabet (num) :
+def alphabet () :
+    num = input("num: ")
+    num = int(num)
     letters = string.ascii_lowercase
     letter_list = list(letters)
     out = " "
@@ -24,7 +26,3 @@ def alphabet (num) :
 
 
 # Main program:
-
-def main():
-    alphabet(4)
-    alphabet(8)
