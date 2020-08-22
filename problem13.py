@@ -34,7 +34,7 @@ class Person:
 def main():
     people = []
     for x in range(5):
-        nums = input().split()
+        nums = input('input: ').split()
         nums = list(map(int, nums))
         if (nums[0] > len(people)):
             people.append(Person(nums[1], nums[2]))
