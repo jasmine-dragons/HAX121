@@ -12,13 +12,10 @@ import re
 import string
 
 # Class and function definitions:
-
-# Main program:
-
 def main():
     nums = []
     tempNums = input().split()
-    tempNums = map(int, tempNums)
+    tempNums = list(map(int, tempNums))
     resultNums = asscendSort(tempNums)
     result = ""
     for tempNum in resultNums:
@@ -26,6 +23,10 @@ def main():
     print(result)
 
 def asscendSort(nums):
-    return sorted(nums, reverse=True)
+    tempNums = []
+    for x in range(len(nums)):
+        tempNums.append(x)
+    return sorted(tempNums, key=lambda x:nums[x])
 
+# Main program:
 main()
