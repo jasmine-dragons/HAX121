@@ -27,7 +27,7 @@ def checkForTriple(nums):  #Run this program
 
 # Main program:
 def main():
-    nums = input("each triple separated by spaces: ").split()
+    nums = input("each number separated by spaces: ").split()
     nums = list(map(int, nums))
     nums = sorted(nums)
     return(checkForTriple(nums))
