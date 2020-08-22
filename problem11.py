@@ -12,5 +12,19 @@ import re
 import string
 
 # Class and function definitions:
+def insertion():
+    swaps = 0
+    list = input('numbers separated by spaces: ').split(' ')
+    length = len(list)
+    for i in range(1, length):
+        position = i
+        value = int(list[i])
+        while position > 0 and int(list[position - 1]) > value:
+            list[position] = list[position - 1]
+            position -= 1
+            swaps += 1
+        list[position] = value
+    print(swaps)
 
 # Main program:
+insertion()
