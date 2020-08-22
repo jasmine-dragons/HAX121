@@ -16,8 +16,9 @@ def getArea(nums):
     nums = list(nums)
     return .5 * nums[0] * nums[1]
 
-def checkForTriple(nums):  #Run this program
-    nums = list(nums)
+def checkForTriple():  #Run this program
+    nums = input("each triple, in ascending order, seperated by spaces: ").split()
+    nums = list(map(int, nums))
     a = nums[0]
     b = nums[1]
     c = nums[2]
