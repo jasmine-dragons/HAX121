@@ -3,7 +3,7 @@
 # Do not modify any part of the template
 
 # Team Name: LeadTech
-# Team Number: 
+# Team Number: P074
 # Problem Number: 7 
 
 import array
