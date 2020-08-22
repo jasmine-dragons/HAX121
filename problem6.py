@@ -2,8 +2,8 @@
 # Please fill out the info fields below for identification
 # Do not modify any part of the template
 
-# Team Name:
-# Team Number:
+# Team Name:LeadTech
+# Team Number:P074
 # Problem Number: 6
 
 import array
