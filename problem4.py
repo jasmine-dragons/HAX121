@@ -4,7 +4,7 @@
 
 # Team Name: LeadTech
 # Team Number: P074
-# Problem Number: 6
+# Problem Number: 4
 
 import array
 import math
