@@ -21,9 +21,9 @@ def range():
 
     for x in num_list:
         y = int(x)
-        if y < max:
+        if y < min:
             min = y
-        if y > min:
+        if y > max:
             max = y
 
     print(max - min)
